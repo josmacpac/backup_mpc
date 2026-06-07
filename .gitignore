@@ -1,0 +1,24 @@
+# --- Entornos Virtuales y Dependencias ---
+venv/
+.venv/
+env/
+node_modules/
+dist/
+build/
+
+# --- Variables de Entorno (¡CRÍTICO POR SEGURIDAD!) ---
+.env
+.env.local
+.env.*.local
+*.env
+
+# --- Archivos del Sistema Operativo ---
+.DS_Store
+Thumbs.db
+
+# --- Archivos de configuración de editores (Opcional) ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
